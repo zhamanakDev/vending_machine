@@ -1,11 +1,13 @@
 package model;
 
+import enums.ActionLetter;
+
 public class Product {
     protected String name;
-    protected char actionLetter;
+    protected ActionLetter actionLetter;
     protected int price;
 
-    public Product(String name, char actionLetter, int price) {
+    public Product(String name, ActionLetter actionLetter, int price) {
         this.name = name;
         this.actionLetter = actionLetter;
         this.price = price;
@@ -15,7 +17,7 @@ public class Product {
         return name;
     }
 
-    public char getActionLetter() {
+    public ActionLetter getActionLetter() {
         return actionLetter;
     }
 

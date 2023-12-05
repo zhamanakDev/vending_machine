@@ -1,7 +1,9 @@
 package model;
 
+import enums.ActionLetter;
+
 public class Pistachios extends Product {
-    public Pistachios(String name, char actionLetter, int price) {
-        super(name, actionLetter, price);
+    public Pistachios(ActionLetter actionLetter, int price) {
+        super("Pistachios", actionLetter, price);
     }
 }
