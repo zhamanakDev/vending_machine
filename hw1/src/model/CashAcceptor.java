@@ -1,6 +1,6 @@
 package model;
 
-public class CashAcceptor {
+public class CashAcceptor implements PaymentAcceptor {
     private int amount;
 
     public CashAcceptor(int amount) {
