@@ -9,10 +9,6 @@ public class AppRunner {
 
     private final UniversalArray<Product> products = new UniversalArrayImpl<>();
 
-    private  CoinAcceptor coinAcceptor;
-
-    private  CashAcceptor cashAcceptor;
-
     private PaymentAcceptor paymentAcceptor;
 
     private static boolean isExit = false;
