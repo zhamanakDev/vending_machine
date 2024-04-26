@@ -1,0 +1,8 @@
+git clone
+git add src/
+git add README.md
+git add .gitignore
+git branch home_work_25
+git checkout home_work_25
+git add commands.txt
+git commit commands.txt
