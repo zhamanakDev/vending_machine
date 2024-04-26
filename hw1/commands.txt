@@ -10,5 +10,5 @@ git commit CashAcceptor.java
 git commit PaymentAcceptor
 git checkout master
 git merge home_work_25
-
+git pull
 
